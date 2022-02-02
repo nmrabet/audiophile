@@ -5,6 +5,7 @@ import Shop from "./components/Shop";
 import SpeakerBanner from "./components/SpeakerBanner";
 import Banner from "./components/Banner";
 import EarphoneBanner from "./components/EarphoneBanner";
+import GearSection from "./components/GearSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SpeakerBanner />
       <Banner />
       <EarphoneBanner />
+      <GearSection />
     </Layout>
   );
 }

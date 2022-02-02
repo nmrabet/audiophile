@@ -12,7 +12,7 @@ function Hero() {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
-        <button className="bg-orange-500 text-white py-4 px-6">
+        <button className="bg-orange-500 text-white py-4 px-10">
           SEE PRODUCT
         </button>
       </div>
