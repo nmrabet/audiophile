@@ -1,21 +1,14 @@
 import "./App.css";
 import Layout from "./components/Layout";
-import Hero from "./components/Hero";
-import Shop from "./components/Shop";
-import SpeakerBanner from "./components/SpeakerBanner";
-import Banner from "./components/Banner";
-import EarphoneBanner from "./components/EarphoneBanner";
-import GearSection from "./components/GearSection";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Layout>
-      <Hero />
-      <Shop />
-      <SpeakerBanner />
-      <Banner />
-      <EarphoneBanner />
-      <GearSection />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </Layout>
   );
 }
